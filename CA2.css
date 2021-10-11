@@ -1,0 +1,120 @@
+
+/* this is google fonts for h1 fonts */
+h1{
+    font-family: 'Oi', cursive;
+    margin-left: 18%;
+    margin-bottom: 10%;
+}
+
+
+
+/* this is the position in which the background image will be displayed */
+.main-container {
+    position: relative;
+  }
+
+  .main-container::after {
+    content: "";
+    background: url('https://www.worldsbestbars.com/wp-content/uploads/2020/04/no-cocktail-bar-tokyo-004.jpeg');
+    background-size: cover;
+    opacity: 0.36;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+    height: 1010px;
+  }
+
+  /* the container sizes for where the content is located */
+.container{
+  height: 930px;
+  width:700px;
+  
+   
+}
+/* position of span1  */
+.span1{
+ margin-left: 32%;
+   
+}
+
+/* position of spans */
+.spans{
+    margin-top: 10%;
+  
+    
+}
+
+
+/* position of animation*/
+.animation{
+    margin-top: 2%;
+    margin-left: 18%;
+}
+
+/* this is hover effect for username */
+#username:hover{
+    border: solid yellow;
+}
+/* this is hover effect for password */
+#password:hover{
+    border: solid yellow;
+}
+/* this is hover effect for quantity */
+#quantity:hover{
+    border: solid yellow;
+}
+/* this is hover effect for discount */
+#discount:hover{
+    border: solid yellow;
+}
+/* this is hover effect for button */
+button:hover{
+    background-color:yellow;
+}
+
+/* total position and boarder size*/
+.total{
+    margin-top: 5%;
+    border: blue solid 3px;
+    border-width: 1%;
+    display: flex;
+    justify-content: center;
+}
+
+/* the google font for total h2 */
+.total h2 {
+    font-family: 'Kaushan Script', cursive;
+    margin-left: 5%;
+}
+
+/* this is hover effect for total */
+.total:hover{
+background-color: yellowgreen;
+}
+/* this is select position */
+.select{
+    margin-top: 5%;
+}
+/* this is button position and padding size */
+button{
+    margin-left:7%;
+    margin-top: 5%;
+    padding-left: 34%;
+    padding-right: 34%;
+}
+
+/* form2 font of google font and position */
+.form2{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 19px;
+    margin-bottom: 5%;
+}
+
+/* form2 font of google font */
+.form{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 19px;
+}
